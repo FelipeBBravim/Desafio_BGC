@@ -1,4 +1,4 @@
-//import * as uuid from "uuid";
+import * as uuid from "uuid";
 import handler from "./libs/handler-lib";
 import dynamoDb from "./libs/dynamodb-lib";
 
@@ -10,7 +10,7 @@ export const main = handler(async (event, context) => {
         TableName: process.env.TABLE_PRODUTOS,
         Item: {
             // The attributes of the item to be created
-            produtoId: Math.floor(Math.random() * 1000),        // The id of the author
+            produtoId: uuid.v1(),        // The id of the author
             nome: data.nome,            // A unique uuid
             descricao: data.descricao,      // Parsed from request body
             tamanho: data.tamanho,// Parsed from request body
