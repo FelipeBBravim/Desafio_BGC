@@ -19,7 +19,7 @@ provider:
   # These environment variables are made available to our functions
   # under process.env.
   environment:
-    TABLE_NAME: produtosBGC2
+    TABLE_PRODUTOS: produtosMinionBGC
 
   # 'iamRoleStatements' defines the permission policy for the Lambda function.
   # In this case Lambda functions are granted with permissions to access
