@@ -7,10 +7,11 @@ export const main = handler(async (event, context) => {
     const data = JSON.parse(event.body);
 
     const params = {
-        TableName: process.env.TABLE_PRODUTOS,
+        TableName: process.env.TABLE,
         Item: {
             // The attributes of the item to be created
-            produtoId: uuid.v1(),        // The id of the author
+            entidade: data.entidade,
+            id: uuid.v1(),        // The id of the author
             nome: data.nome,            // A unique uuid
             descricao: data.descricao,      // Parsed from request body
             tamanho: data.tamanho,// Parsed from request body

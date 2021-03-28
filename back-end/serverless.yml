@@ -19,7 +19,7 @@ provider:
   # These environment variables are made available to our functions
   # under process.env.
   environment:
-    TABLE_PRODUTOS: ProdutosBGC
+    TABLE: BGC
 
   # 'iamRoleStatements' defines the permission policy for the Lambda function.
   # In this case Lambda functions are granted with permissions to access
@@ -56,3 +56,30 @@ functions:
       - http:
           path: produtos/{id}
           method: get
+
+  list:
+    # Defines an HTTP API endpoint that calls the main function in list.js
+    # - path: url path is /notes
+    # - method: GET request
+    handler: list.main
+    events:
+      - http:
+          path: produtos
+          method: get
+
+  update:
+    # Defines an HTTP API endpoint that calls the main function in update.js
+    # - path: url path is /notes/{id}
+    # - method: PUT request
+    handler: update.main
+    events:
+      - http:
+          path: produtos/{id}
+          method: put
+
+  delete:
+    handler: delete.main
+    events:
+      - http:
+          path: produtos/{id}
+          method: delete
