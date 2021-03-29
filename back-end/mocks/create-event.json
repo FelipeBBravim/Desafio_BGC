@@ -1,8 +1,13 @@
 {
-	"body": "{\"entidade\":\"Produto\",\"nome\":\"Dave feminino\",\"descricao\":\"Boneco de plástico do minion Dave caracterizado como mulher.\",\"tamanho\":\"Médio\",\"nomeMinion\":\"Dave\",\"material\":\"Plástico\",\"preco\":\"49.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem1.jpg\"}",
-	"body": "{\"entidade\":\"Produto\",\"nome\":\"POP Bob de pijamas\",\"descricao\":\"Boneco POP do Bob de pijamas.\",\"tamanho\":\"Pequeno\",\"nomeMinion\":\"Bob\",\"material\":\"Plástico\",\"preco\":\"79.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem2.jpg\"}",
-	"body": "{\"entidade\":\"Produto\",\"nome\":\"Boliche minions\",\"descricao\":\"Kit de boliche minions.\",\"tamanho\":\"Grande\",\"nomeMinion\":\"Vários\",\"material\":\"Plástico\",\"preco\":\"94.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem3\"}",
-	"body": "{\"entidade\":\"Produto\",\"Bob apaixonado\":\"PAOLA_NOME\",\"descricao\":\"Boneco Bob com olhos apaixonados.\",\"tamanho\":\"Pequeno\",\"nomeMinion\":\"Bob\",\"material\":\"Borracha\",\"preco\":\"34.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem4\"}",
-	"body": "{\"entidade\":\"Produto\",\"nome\":\"Bob Pelúcia\",\"descricao\":\"Bob de pelúcia segurando um ursinho com olhos de cor diferente.\",\"tamanho\":\"Médio\",\"nomeMinion\":\"Bob\",\"material\":\"Pelúcia\",\"preco\":\"59.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem5\"}",
+	"body": "{\"entidade\":\"Produto\",\"nome\":\"Dave feminino\",\"descricao\":\"Boneco de plástico do minion Dave caracterizado como mulher.\",\"tamanho\":\"Médio\",\"nomeMinion\":\"Dave\",\"material\":\"Plástico\",\"preco\":\"49.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem1.jpg\"}"
+	
+	"body": "{\"entidade\":\"Produto\",\"nome\":\"POP Bob de pijamas\",\"descricao\":\"Boneco POP do Bob de pijamas.\",\"tamanho\":\"Pequeno\",\"nomeMinion\":\"Bob\",\"material\":\"Plástico\",\"preco\":\"79.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem2.jpg\"}"
+	
+	"body": "{\"entidade\":\"Produto\",\"nome\":\"Boliche minions\",\"descricao\":\"Kit de boliche minions.\",\"tamanho\":\"Grande\",\"nomeMinion\":\"Vários\",\"material\":\"Plástico\",\"preco\":\"94.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem3\"}"
+	
+	"body": "{\"entidade\":\"Produto\",\"nome\":\"Bob apaixonado\",\"descricao\":\"Boneco Bob com olhos apaixonados.\",\"tamanho\":\"Pequeno\",\"nomeMinion\":\"Bob\",\"material\":\"Borracha\",\"preco\":\"34.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem4\"}"
+	
+	"body": "{\"entidade\":\"Produto\",\"nome\":\"Bob Pelúcia\",\"descricao\":\"Bob de pelúcia segurando um ursinho com olhos de cor diferente.\",\"tamanho\":\"Médio\",\"nomeMinion\":\"Bob\",\"material\":\"Pelúcia\",\"preco\":\"59.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem5\"}"
+	
 	"body": "{\"entidade\":\"Produto\",\"nome\":\"Stuart Pelúcia\",\"descricao\":\"Stuart de pelúcia vestido de Homem-aranha.\",\"tamanho\":\"Médio\",\"nomeMinion\":\"Stuart\",\"material\":\"Pelúcia\",\"preco\":\"89.99\",\"imagem\":\"https://produtos-minion-bgc.s3-sa-east-1.amazonaws.com/Imagem6\"}"
 }

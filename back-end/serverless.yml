@@ -1,5 +1,10 @@
 service: minions-bgc
 
+cors: true
+
+resources:
+  - ${file(resources/api-gateway-errors.yml)}
+
 package:
   individually: true
 
@@ -37,6 +42,7 @@ functions:
       - http:
           path: produtos
           method: post
+          cors: true
           authorizer: aws_iam
 
   get-produto:
@@ -45,6 +51,7 @@ functions:
       - http:
           path: produtos/{id}
           method: get
+          cors: true
           authorizer: aws_iam
 
   list-produto:
@@ -53,6 +60,7 @@ functions:
       - http:
           path: produtos
           method: get
+          cors: true
           authorizer: aws_iam
 
   update-produto:
@@ -61,6 +69,7 @@ functions:
       - http:
           path: produtos/{id}
           method: put
+          cors: true
           authorizer: aws_iam
 
   delete-produto:
@@ -69,6 +78,7 @@ functions:
       - http:
           path: produtos/{id}
           method: delete
+          cors: true
           authorizer: aws_iam
   
   create-pedido:
@@ -77,6 +87,7 @@ functions:
       - http:
           path: pedidos
           method: post
+          cors: true
           authorizer: aws_iam
 
   get-pedido:
@@ -85,6 +96,7 @@ functions:
       - http:
           path: pedidos/{id}
           method: get
+          cors: true
           authorizer: aws_iam
 
   list-pedido:
@@ -93,6 +105,7 @@ functions:
       - http:
           path: pedidos/{id}
           method: get
+          cors: true
           authorizer: aws_iam
 
   update-pedido:
@@ -101,6 +114,7 @@ functions:
       - http:
           path: pedidos/{id}
           method: put
+          cors: true
           authorizer: aws_iam
 
   delete-pedido:
@@ -109,4 +123,5 @@ functions:
       - http:
           path: pedidos/{id}
           method: delete
+          cors: true
           authorizer: aws_iam
