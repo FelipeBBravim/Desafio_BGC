@@ -1,0 +1,8 @@
+{
+    "body": "{\"produto\":\"244946d0-9044-11eb-8c89-c713ef49e9e3\"}",
+    "requestContext": {
+        "identity":{
+            "cognitoIdentityId": "USER-SUB-1234"
+        }
+    }
+}

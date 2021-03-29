@@ -1,14 +1,12 @@
-# NOTE: update this with your service name
 service: minions-bgc
 
-# Create an optimized package for our functions 
 package:
   individually: true
 
 plugins:
-  - serverless-bundle # Package our functions with Webpack
+  - serverless-bundle
   - serverless-offline
-  - serverless-dotenv-plugin # Load .env as environment variables
+  - serverless-dotenv-plugin
 
 provider:
   name: aws
@@ -16,14 +14,10 @@ provider:
   stage: dev
   region: sa-east-1
 
-  # These environment variables are made available to our functions
-  # under process.env.
   environment:
-    TABLE: BGC
+    TABELA_PRODUTOS: BGC-PRODUTOS
+    TABELA_PEDIDOS: BGC-PEDIDOS
 
-  # 'iamRoleStatements' defines the permission policy for the Lambda function.
-  # In this case Lambda functions are granted with permissions to access
-  # DynamoDB
   iamRoleStatements:
     - Effect: Allow
       Action:
@@ -37,49 +31,82 @@ provider:
       Resource: "arn:aws:dynamodb:sa-east-1:*:*"
 
 functions:
-  # Defines an HTTP API endpoint that calls the main function in create.js
-  # - path: url path is /notes
-  # - method: POST request
-  create:
-    handler: create.main
+  create-produto:
+    handler: Produtos/create.main
     events:
       - http:
           path: produtos
           method: post
+          authorizer: aws_iam
 
-  get:
-    # Defines an HTTP API endpoint that calls the main function in get.js
-    # - path: url path is /notes/{id}
-    # - method: GET request
-    handler: get.main
+  get-produto:
+    handler: Produtos/get.main
     events:
       - http:
           path: produtos/{id}
           method: get
+          authorizer: aws_iam
 
-  list:
-    # Defines an HTTP API endpoint that calls the main function in list.js
-    # - path: url path is /notes
-    # - method: GET request
-    handler: list.main
+  list-produto:
+    handler: Produtos/list.main
     events:
       - http:
           path: produtos
           method: get
+          authorizer: aws_iam
 
-  update:
-    # Defines an HTTP API endpoint that calls the main function in update.js
-    # - path: url path is /notes/{id}
-    # - method: PUT request
-    handler: update.main
+  update-produto:
+    handler: Produtos/update.main
     events:
       - http:
           path: produtos/{id}
           method: put
+          authorizer: aws_iam
 
-  delete:
-    handler: delete.main
+  delete-produto:
+    handler: Produtos/delete.main
     events:
       - http:
           path: produtos/{id}
           method: delete
+          authorizer: aws_iam
+  
+  create-pedido:
+    handler: Pedidos/create.main
+    events:
+      - http:
+          path: pedidos
+          method: post
+          authorizer: aws_iam
+
+  get-pedido:
+    handler: Pedidos/get.main
+    events:
+      - http:
+          path: pedidos/{id}
+          method: get
+          authorizer: aws_iam
+
+  list-pedido:
+    handler: Pedidos/list.main
+    events:
+      - http:
+          path: pedidos/{id}
+          method: get
+          authorizer: aws_iam
+
+  update-pedido:
+    handler: Pedidos/update.main
+    events:
+      - http:
+          path: pedidos/{id}
+          method: put
+          authorizer: aws_iam
+
+  delete-pedido:
+    handler: Pedidos/delete.main
+    events:
+      - http:
+          path: pedidos/{id}
+          method: delete
+          authorizer: aws_iam
