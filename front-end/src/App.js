@@ -17,6 +17,7 @@ function App() {
   useEffect(() => {
     onLoad();
   }, []);
+  
   async function onLoad() {
     try {
       await Auth.currentSession();
