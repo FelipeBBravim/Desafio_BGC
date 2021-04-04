@@ -1,0 +1,143 @@
+[33mcommit 0b84335760b1aec4a20f1ff2abc478acd1a9a77b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 23:13:31 2021 -0300
+
+    Criando página de signup
+
+[33mcommit ee4ca103b6056977c47287e568ee2a2722e4ba8b[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 22:59:24 2021 -0300
+
+    Criando ganchos comuns
+
+[33mcommit e354386a54689199bd222cda818959e5087ef241[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 22:44:37 2021 -0300
+
+    Ajustando erro e barra responsiva de login
+
+[33mcommit d5ec39db3f32031efba60e6abc4650290f5c7bd1[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 22:34:44 2021 -0300
+
+    Ajustando login/logout ganchos
+
+[33mcommit a8973a64b40ad63f531ad932cfbb3dcc10948b05[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 22:31:01 2021 -0300
+
+    Sincronizando Login com Cognito e atualizando os estados de login/logout
+
+[33mcommit 1cb1de2a88c92d48e325e763efba8e6fb38d8163[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 21:14:03 2021 -0300
+
+    Adicionando configurações AWS
+
+[33mcommit 4ca93ac4e8c61204a7801b9b88ec36bf06feb507[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 20:55:25 2021 -0300
+
+    Página 404 not found
+
+[33mcommit f0c7c4ae9d39d21bead39273cb9bf33f0a19384a[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 20:50:37 2021 -0300
+
+    Adicionando Router e LinkContainer
+
+[33mcommit 2e992d9d99b287eee8ae0722f6f5b7b6638039c1[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 20:32:17 2021 -0300
+
+    Adicionada Navbar e página Home
+
+[33mcommit a316bcab300a26e4025d240caf1f5f8b1a7b3b10[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 30 19:46:52 2021 -0300
+
+    Iniciando o front-end
+
+[33mcommit 2b0c706f1ee17db0fe8b29ce3ed236c22083fdf0[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Mon Mar 29 10:33:51 2021 -0300
+
+    Adicionado CORS ao API serverless
+
+[33mcommit c1e568e5e2e02c525d5e49a73ff6448f2da5266a[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Mon Mar 29 01:33:59 2021 -0300
+
+    Finalizada CRUD de pedidos e acertado Back-end
+
+[33mcommit 95694b491941d9f7487ec499a4e4b0c5d661619b[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Sat Mar 27 22:34:01 2021 -0300
+
+    Criada CRUD de produtos
+
+[33mcommit 8b294a430b6de52da51aed5ce44c1fa8a85e84f9[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Sat Mar 27 20:56:43 2021 -0300
+
+    Acertando table no DynamoDB e adicionando GET
+
+[33mcommit 58dbfd794983543af4750b4b6c69aa855e0edb1a[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Sat Mar 27 20:11:42 2021 -0300
+
+    Adicionando item com o 'post'
+
+[33mcommit 2292db04a5f49739a8119713005901740b07254c[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Sat Mar 27 18:16:12 2021 -0300
+
+    Erros consertados
+
+[33mcommit 1f1cb346e20d47417b509170d86be6237c0e5ea9[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Sat Mar 27 18:10:54 2021 -0300
+
+    Criando objetos de conveniência
+
+[33mcommit 7db259b466e36026a2bd076e5ceb8848d7a77a80[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Sat Mar 27 17:50:02 2021 -0300
+
+    Teste POST em estudo
+
+[33mcommit a6d03fe8671634162339654e5e66a91ce9304c17[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Fri Mar 26 18:08:04 2021 -0300
+
+    Back-end serverless Stack
+
+[33mcommit 11a63a8d1867b7af4ce92c0329a6ec3972e27bb1[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Fri Mar 26 14:32:15 2021 -0300
+
+    Acertando ambiente de programação com NodeJS
+
+[33mcommit 2aad9250eb63c0e1bf519a2055d59ed1ffedfd95[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Wed Mar 24 00:53:24 2021 -0300
+
+    Preparando o ambiente para o back-end
+
+[33mcommit 91476aa3beba107456bdc577e4d9de3c6a17f142[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 23 19:04:22 2021 -0300
+
+    Diagrama de classes - correção
+
+[33mcommit b9c6d740f47e14faeac22fc0257cfd1d7cd33978[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 23 19:01:26 2021 -0300
+
+    Diagrama de classes
+
+[33mcommit 6c9ac674a476d8ecf32f23be2ff41ca2ff97979b[m
+Author: FelipeBBravim <felipe.bravim@gmail.com>
+Date:   Tue Mar 23 17:25:59 2021 -0300
+
+    Caso de uso

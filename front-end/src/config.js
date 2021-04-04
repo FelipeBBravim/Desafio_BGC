@@ -1,4 +1,5 @@
 const config = {
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
         REGION: "sa-east-1",
         BUCKET: "minions-bgc-dev-serverlessdeploymentbucket-16dksowmcy621",
